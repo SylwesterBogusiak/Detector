@@ -1,0 +1,91 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Object Detector using ml5.js and p5.js by MARTE.BEST v0.01</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.5.0/dist/ml5.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<style type="text/css">
+	/* Start by setting display:none to make this hidden.
+   Then we position it in relation to the viewport window
+   with position:fixed. Width, height, top and left speak
+   for themselves. Background we set to 80% white with
+   our animation centered, and no-repeating */
+.modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modal {
+    display: block;
+}
+</style>
+</head>
+
+
+<body>
+
+
+<div class="container">
+	<div class="jumbotron">
+    	<h1>Objects Detector by MARTE.BEST-Sylwester Bogusiak v0.01</h1>
+    	<p>This website uses P5.JS and ML5.JS to detect objects in any uploaded image.</p> 
+  	</div>
+	<div class="row">
+  		<div class="col-sm">
+  			<div class="card">
+			  	<div class="card-header">
+			    Original Image
+			  	</div>
+			  	<div id="imageOryginalDiv" class="card-block text-center">
+			    	<img id="imageOriginal" alt="Upload" class="card-img-top"/>
+			  	</div>
+			  	<div class="card-footer text-muted">
+			    	<input type="file" id="imageInput" name="file" accept="image/*"/>
+			  	</div>
+			</div>
+  		</div>
+  		<div class="col-sm">
+  			<div class="card">
+			  	<div class="card-header">
+			    Modified Image
+			  	</div>
+			  	<div id="imageCanvasDiv" class="card-img" >
+			    	
+			  	</div>
+			  	<ul class="list-group list-group-flush">
+				    <li class="list-group-item">
+				    	<button type="button" id="detectButton" class="btn btn-primary">Detect objects</button>
+				    </li>
+				</ul>
+				<div class="card-footer">
+				    <a href="#" id="button" class="card-link">Download Image</a>
+				</div>
+			</div>
+  		</div>
+  	</div>
+</div>
+<div class="modal"></div>
+
+
+<script src="sketch.js"></script>
+
+</body>
+</html>
