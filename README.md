@@ -6,6 +6,7 @@ index.html
 sketch.js
 
 and is using:
+
 Bootstrap for CSS
 
 ML5.js for COCO-SSD model
@@ -27,7 +28,7 @@ Example, how this work:
 
 ![image](https://github.com/SylwesterBogusiak/Detector/assets/122264765/bb66c4ef-23b8-4f7f-b922-47e7f7e61552) 
 
-[NOT GOOD.]
+[NOT GOOD. ARTIFICIAL INTELLIGENCE NEEDS TO LEARN WHAT IS GARBAGE AND WHAT IS NOT.]
 
 Note:
 This simple app is a first step to create AI to detect dumped rubbish on static pictures, and mapping this objects on the world map. 
