@@ -33,4 +33,7 @@ Note:
 This simple app is a first step to create AI to detect dumped rubbish on static pictures, and mapping this objects on the world map. 
 Are you interested in volunteering and creating LitterAI? Please contact me at: info@marte.best
 
-Peace.
+This project is a part of 369SORTWASTE campaign.
+More info at: www.369sortwaste.pl
+
+PAX.
