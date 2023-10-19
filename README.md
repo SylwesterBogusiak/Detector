@@ -7,7 +7,9 @@ sketch.js
 
 and is using:
 Bootstrap for CSS
+
 ML5.js for COCO-SSD model
+
 P5.js for images processing
 
 Website with this script:
@@ -20,9 +22,11 @@ Open picture file with high resolution, and press DETECT OBJECTS button. That's 
 Example, how this work:
 
 ![image](https://github.com/SylwesterBogusiak/Detector/assets/122264765/2b6391e8-c610-4b8d-b10c-7f7db3b36e71)
+
 [QUITE GOOD, BUT LOW PERCENTAGE.]
 
 ![image](https://github.com/SylwesterBogusiak/Detector/assets/122264765/bb66c4ef-23b8-4f7f-b922-47e7f7e61552) 
+
 [NOT GOOD.]
 
 Note:
